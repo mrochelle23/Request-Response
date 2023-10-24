@@ -40,9 +40,9 @@ def multiply(number1, number2):
 @app.route('/sayntimes/<word>/<n>')
 def sayntimes(word, n):
     """Display a message to the user that changes based on their word and number."""
-    if n == "world":
-        return f'Invalid input. Please try again by entering a word and a number!'
-    return ('\n'.join([word] * int(n)))
+    if n.isdigit():
+        return ('\n'.join([word] * int(n)))
+    return f'Invalid input. Please try again by entering a word and a number!'
 
 @app.route('/dicegame')
 def dicegame():
