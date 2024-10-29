@@ -14,7 +14,7 @@ This project is a simple Flask web application demonstrating various routes that
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/mrochelle23/Flask-Request-Response.git
+   git clone https://github.com/mrochelle23/Request-Response.git
    cd Flask-Request-Response
    ```
 
